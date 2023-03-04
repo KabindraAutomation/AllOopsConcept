@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96dae311-a202-4550-bbdf-34612561be13" name="Changes" comment="AllOopsConcept for Selenium Java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myPage/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myPage/LoginPage.java" afterDir="false" />
+    <list default="true" id="96dae311-a202-4550-bbdf-34612561be13" name="Changes" comment="AllOopsConcept for Selenium Java_Created Login Page including Encapsulation concept/Method Overriding.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myPage/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myPage/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myPage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myPage/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677936921298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AllOopsConcept for Selenium Java_Created Login Page including Encapsulation concept/Method Overriding.">
+      <created>1677939933454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677939933454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AllOopsConcept for Selenium Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="AllOopsConcept for Selenium Java" />
+    <MESSAGE value="AllOopsConcept for Selenium Java_Created Login Page including Encapsulation concept/Method Overriding." />
+    <option name="LAST_COMMIT_MESSAGE" value="AllOopsConcept for Selenium Java_Created Login Page including Encapsulation concept/Method Overriding." />
   </component>
 </project>
