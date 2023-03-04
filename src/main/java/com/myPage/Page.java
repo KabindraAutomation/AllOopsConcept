@@ -17,7 +17,6 @@ public abstract class Page {
         this.wait = new WebDriverWait(this.driver, 15);
 
     }
-
     //Now defining the abstract method. WithOut Method body. Just a signature only
     //in every this these kinds of method should be there
     public abstract String getPageTitle();
