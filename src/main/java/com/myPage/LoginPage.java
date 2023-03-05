@@ -35,8 +35,8 @@ public class LoginPage extends BasePage{
     public String getLoginPageTitle(){
         return getPageTitle();
     }
-    public void getLoginPageHeader(){
-        getPageHeader(header);
+    public String getLoginPageHeader(){
+        return getPageHeader(header);
     }
 
     public HomePage doLogin(String username, String password){

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="All Test Suite" parallel="tests" verbose="3">
+
+    <test name="com.MyTest.LoginTest by Chrome" thread-count="5" parallel="methods">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.MyTest.LoginTest">
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="com.MyTest.LoginTest" thread-count="5" parallel="methods">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.MyTest.LoginTest">-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
