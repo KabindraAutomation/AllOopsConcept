@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96dae311-a202-4550-bbdf-34612561be13" name="Changes" comment="AllOopsConcept for Selenium Java_Created Login Page including Encapsulation concept/Method Overriding.">
+    <list default="true" id="96dae311-a202-4550-bbdf-34612561be13" name="Changes" comment="AllOopsConcept for Selenium Java">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/MyTest/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/MyTest/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myPage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myPage/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myPage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myPage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myPage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myPage/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,6 +31,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,13 +55,79 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "start.from.branch": "master"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.myPage" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/IntellijIDE/AllOopsConcept/src/test/resources/testng.xml">
+    <configuration name="C:/IntellijIDE/AllOopsConcept/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AllOopsConcept" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/kabin/AppData/Local/JetBrains/IdeaIC2022.1/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2022.1/temp-testng-customsuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.doLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AllOopsConcept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.MyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.MyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.MyTest.LoginTest" />
+      <option name="METHOD_NAME" value="doLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyLoginPageTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AllOopsConcept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.MyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.MyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.MyTest.LoginTest" />
+      <option name="METHOD_NAME" value="verifyLoginPageTitleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/IntellijIDE/AllOopsConcept/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/kabin/AppData/Local/JetBrains/IdeaIC2022.1/temp-testng-customsuite.xml" />
+        <item itemvalue="TestNG.LoginTest.doLoginTest" />
+        <item itemvalue="TestNG.LoginTest.verifyLoginPageTitleTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,5 +170,21 @@
     <MESSAGE value="AllOopsConcept for Selenium Java" />
     <MESSAGE value="AllOopsConcept for Selenium Java_Created Login Page including Encapsulation concept/Method Overriding." />
     <option name="LAST_COMMIT_MESSAGE" value="AllOopsConcept for Selenium Java_Created Login Page including Encapsulation concept/Method Overriding." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/MyTest/LoginTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/MyTest/LoginTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

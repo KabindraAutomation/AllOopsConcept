@@ -9,7 +9,7 @@ public class HomePage extends BasePage{
     public HomePage(WebDriver driver) {
         super(driver);
     }
-    private By header = By.xpath("//i18n-string[normalize-space()='Steps to get started with HubSpot']");
+    private By header = By.xpath("(//i18n-string[normalize-space()='Steps to get started with HubSpot'])[1]");
 
 
     public WebElement getHeader() {

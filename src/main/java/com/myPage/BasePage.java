@@ -3,7 +3,6 @@ package com.myPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class BasePage extends Page {
 
@@ -23,12 +22,14 @@ public class BasePage extends Page {
 
     @Override
     public WebElement getElement(By locator) {
+
         WebElement element = null;
         try {
+            waitForElementPresent(locator);
             element = driver.findElement(locator);
             return element;
         } catch (Exception e) {
-            System.out.println("Some error occured while creating element" + locator.toString());
+            System.out.println("Some error occurred while creating element" + locator.toString());
             e.printStackTrace();
         }
         return element;
@@ -36,27 +37,23 @@ public class BasePage extends Page {
 
     @Override
     public void waitForElementPresent(By locator) {
-        try {
-
-            wait.until(ExpectedConditions.presenceOfElementLocated(locator));
-        } catch (Exception e) {
-            System.out.println("Some exception/Error occurred while waiting for the element" + locator.toString());
-            e.printStackTrace();
-
-        }
+//        try {
+//            wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+//        } catch (Exception e) {
+//            System.out.println("Some exception/Error occurred while waiting for the element" + locator.toString());
+//            e.printStackTrace();
+//        }
 
     }
 
     @Override
     public void waitForPageTitle(String title) {
-        try {
-
-            wait.until(ExpectedConditions.titleContains(title));
-        } catch (Exception e) {
-            System.out.println("Some exception/Error occurred while waiting for the element" + title);
-            e.printStackTrace();
-
-        }
+//        try {
+//            wait.until(ExpectedConditions.titleContains(title));
+//        } catch (Exception e) {
+//            System.out.println("Some exception/Error occurred while waiting for the element" + title);
+//            e.printStackTrace();
+//        }
 
     }
 }
